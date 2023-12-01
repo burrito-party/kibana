@@ -6,7 +6,7 @@
  * Side Public License, v 1.
  */
 
-import { readFile as fsReadFileAsync} from 'fs/promises';
+import { readFile as fsReadFileAsync } from 'fs/promises';
 import { resolve } from 'path';
 import { coerce } from 'semver';
 import { snakeCase } from 'lodash';
